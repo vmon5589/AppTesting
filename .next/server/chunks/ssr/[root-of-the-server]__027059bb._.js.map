@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 27, "column": 0}, "map": {"version":3,"sources":["file:///Users/nexus_coding/Desktop/Client%20Issues/userprofile%20crash/AppTesting/app/%28auth%29/%28root%29/page.tsx"],"sourcesContent":["\nimport LandingPage from '@/components/shared/LandingPage';\nimport { currentUser } from '@clerk/nextjs/server';\nexport default async function Home() {\n  const user = await currentUser()\n  if (!user) {\n    return (\n      <>\n        <LandingPage/>\n      </>\n    )\n  }\n\n}\n"],"names":[],"mappings":";;;;;;;;;AAEA;;;;AACe,eAAe;IAC5B,MAAM,OAAO,MAAM,CAAA,GAAA,0LAAA,CAAA,cAAW,AAAD;IAC7B,IAAI,CAAC,MAAM;QACT,qBACE;sBACE,cAAA,8OAAC;;;;;;IAGP;AAEF","debugId":null}}]
+}
