@@ -58,7 +58,7 @@ export const createUser = async({
 
     } catch(err: any) {
 
-        throw new Error(`Failed to create user: ${err.messagegit}`)
+        throw new Error(`Failed to create user: ${err.message}`)
 
     }
 
